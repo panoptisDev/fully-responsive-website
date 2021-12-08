@@ -13,7 +13,7 @@
 .btn--primary {
   background-color: var(--primary);
   color: #242424;
-  border: 1px solig var(--primary);
+  border: 1px solid var(--primary);
 }
 
 .btn--outline {
@@ -26,15 +26,18 @@
 
 .btn--medium {
   padding: 8px 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
+
 .btn--large {
   padding: 12px 26px;
   font-size: 20px;
 }
-.btn--medium:hover,
-.btn--large:hover {
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
   background: #fff;
   color: #242424;
-  transition: all 0.3s ease-out;
+  transition: 250ms;
 }
